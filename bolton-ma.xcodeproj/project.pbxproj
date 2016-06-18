@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C32B72131D15D97900B67EF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32B72121D15D97900B67EF7 /* AppDelegate.swift */; };
+		C32B72151D15D97900B67EF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32B72141D15D97900B67EF7 /* ViewController.swift */; };
+		C32B72181D15D97900B67EF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C32B72161D15D97900B67EF7 /* Main.storyboard */; };
+		C32B721A1D15D97900B67EF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C32B72191D15D97900B67EF7 /* Assets.xcassets */; };
+		C32B721D1D15D97900B67EF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C32B721B1D15D97900B67EF7 /* LaunchScreen.storyboard */; };
+		C32B72281D15D97900B67EF7 /* bolton_maTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32B72271D15D97900B67EF7 /* bolton_maTests.swift */; };
+		C32B72331D15D97900B67EF7 /* bolton_maUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32B72321D15D97900B67EF7 /* bolton_maUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C32B72241D15D97900B67EF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C32B72071D15D97900B67EF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C32B720E1D15D97900B67EF7;
+			remoteInfo = "bolton-ma";
+		};
+		C32B722F1D15D97900B67EF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C32B72071D15D97900B67EF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C32B720E1D15D97900B67EF7;
+			remoteInfo = "bolton-ma";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C32B720F1D15D97900B67EF7 /* bolton-ma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bolton-ma.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C32B72121D15D97900B67EF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C32B72141D15D97900B67EF7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C32B72171D15D97900B67EF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C32B72191D15D97900B67EF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C32B721C1D15D97900B67EF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C32B721E1D15D97900B67EF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C32B72231D15D97900B67EF7 /* bolton-maTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bolton-maTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C32B72271D15D97900B67EF7 /* bolton_maTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bolton_maTests.swift; sourceTree = "<group>"; };
+		C32B72291D15D97900B67EF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C32B722E1D15D97900B67EF7 /* bolton-maUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bolton-maUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C32B72321D15D97900B67EF7 /* bolton_maUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bolton_maUITests.swift; sourceTree = "<group>"; };
+		C32B72341D15D97900B67EF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C32B720C1D15D97900B67EF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C32B72201D15D97900B67EF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C32B722B1D15D97900B67EF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C32B72061D15D97900B67EF7 = {
+			isa = PBXGroup;
+			children = (
+				C32B72111D15D97900B67EF7 /* bolton-ma */,
+				C32B72261D15D97900B67EF7 /* bolton-maTests */,
+				C32B72311D15D97900B67EF7 /* bolton-maUITests */,
+				C32B72101D15D97900B67EF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C32B72101D15D97900B67EF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C32B720F1D15D97900B67EF7 /* bolton-ma.app */,
+				C32B72231D15D97900B67EF7 /* bolton-maTests.xctest */,
+				C32B722E1D15D97900B67EF7 /* bolton-maUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C32B72111D15D97900B67EF7 /* bolton-ma */ = {
+			isa = PBXGroup;
+			children = (
+				C32B72121D15D97900B67EF7 /* AppDelegate.swift */,
+				C32B72141D15D97900B67EF7 /* ViewController.swift */,
+				C32B72161D15D97900B67EF7 /* Main.storyboard */,
+				C32B72191D15D97900B67EF7 /* Assets.xcassets */,
+				C32B721B1D15D97900B67EF7 /* LaunchScreen.storyboard */,
+				C32B721E1D15D97900B67EF7 /* Info.plist */,
+			);
+			path = "bolton-ma";
+			sourceTree = "<group>";
+		};
+		C32B72261D15D97900B67EF7 /* bolton-maTests */ = {
+			isa = PBXGroup;
+			children = (
+				C32B72271D15D97900B67EF7 /* bolton_maTests.swift */,
+				C32B72291D15D97900B67EF7 /* Info.plist */,
+			);
+			path = "bolton-maTests";
+			sourceTree = "<group>";
+		};
+		C32B72311D15D97900B67EF7 /* bolton-maUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C32B72321D15D97900B67EF7 /* bolton_maUITests.swift */,
+				C32B72341D15D97900B67EF7 /* Info.plist */,
+			);
+			path = "bolton-maUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C32B720E1D15D97900B67EF7 /* bolton-ma */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C32B72371D15D97900B67EF7 /* Build configuration list for PBXNativeTarget "bolton-ma" */;
+			buildPhases = (
+				C32B720B1D15D97900B67EF7 /* Sources */,
+				C32B720C1D15D97900B67EF7 /* Frameworks */,
+				C32B720D1D15D97900B67EF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "bolton-ma";
+			productName = "bolton-ma";
+			productReference = C32B720F1D15D97900B67EF7 /* bolton-ma.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C32B72221D15D97900B67EF7 /* bolton-maTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C32B723A1D15D97900B67EF7 /* Build configuration list for PBXNativeTarget "bolton-maTests" */;
+			buildPhases = (
+				C32B721F1D15D97900B67EF7 /* Sources */,
+				C32B72201D15D97900B67EF7 /* Frameworks */,
+				C32B72211D15D97900B67EF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C32B72251D15D97900B67EF7 /* PBXTargetDependency */,
+			);
+			name = "bolton-maTests";
+			productName = "bolton-maTests";
+			productReference = C32B72231D15D97900B67EF7 /* bolton-maTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C32B722D1D15D97900B67EF7 /* bolton-maUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C32B723D1D15D97900B67EF7 /* Build configuration list for PBXNativeTarget "bolton-maUITests" */;
+			buildPhases = (
+				C32B722A1D15D97900B67EF7 /* Sources */,
+				C32B722B1D15D97900B67EF7 /* Frameworks */,
+				C32B722C1D15D97900B67EF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C32B72301D15D97900B67EF7 /* PBXTargetDependency */,
+			);
+			name = "bolton-maUITests";
+			productName = "bolton-maUITests";
+			productReference = C32B722E1D15D97900B67EF7 /* bolton-maUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C32B72071D15D97900B67EF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Math LLC";
+				TargetAttributes = {
+					C32B720E1D15D97900B67EF7 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					C32B72221D15D97900B67EF7 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = C32B720E1D15D97900B67EF7;
+					};
+					C32B722D1D15D97900B67EF7 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = C32B720E1D15D97900B67EF7;
+					};
+				};
+			};
+			buildConfigurationList = C32B720A1D15D97900B67EF7 /* Build configuration list for PBXProject "bolton-ma" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C32B72061D15D97900B67EF7;
+			productRefGroup = C32B72101D15D97900B67EF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C32B720E1D15D97900B67EF7 /* bolton-ma */,
+				C32B72221D15D97900B67EF7 /* bolton-maTests */,
+				C32B722D1D15D97900B67EF7 /* bolton-maUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C32B720D1D15D97900B67EF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C32B721D1D15D97900B67EF7 /* LaunchScreen.storyboard in Resources */,
+				C32B721A1D15D97900B67EF7 /* Assets.xcassets in Resources */,
+				C32B72181D15D97900B67EF7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C32B72211D15D97900B67EF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C32B722C1D15D97900B67EF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C32B720B1D15D97900B67EF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C32B72151D15D97900B67EF7 /* ViewController.swift in Sources */,
+				C32B72131D15D97900B67EF7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C32B721F1D15D97900B67EF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C32B72281D15D97900B67EF7 /* bolton_maTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C32B722A1D15D97900B67EF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C32B72331D15D97900B67EF7 /* bolton_maUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C32B72251D15D97900B67EF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C32B720E1D15D97900B67EF7 /* bolton-ma */;
+			targetProxy = C32B72241D15D97900B67EF7 /* PBXContainerItemProxy */;
+		};
+		C32B72301D15D97900B67EF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C32B720E1D15D97900B67EF7 /* bolton-ma */;
+			targetProxy = C32B722F1D15D97900B67EF7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C32B72161D15D97900B67EF7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C32B72171D15D97900B67EF7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C32B721B1D15D97900B67EF7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C32B721C1D15D97900B67EF7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C32B72351D15D97900B67EF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C32B72361D15D97900B67EF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C32B72381D15D97900B67EF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "bolton-ma/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.math.bolton-ma";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C32B72391D15D97900B67EF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "bolton-ma/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.math.bolton-ma";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C32B723B1D15D97900B67EF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "bolton-maTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.math.bolton-maTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bolton-ma.app/bolton-ma";
+			};
+			name = Debug;
+		};
+		C32B723C1D15D97900B67EF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "bolton-maTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.math.bolton-maTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bolton-ma.app/bolton-ma";
+			};
+			name = Release;
+		};
+		C32B723E1D15D97900B67EF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "bolton-maUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.math.bolton-maUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "bolton-ma";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C32B723F1D15D97900B67EF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "bolton-maUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.math.bolton-maUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "bolton-ma";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C32B720A1D15D97900B67EF7 /* Build configuration list for PBXProject "bolton-ma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C32B72351D15D97900B67EF7 /* Debug */,
+				C32B72361D15D97900B67EF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C32B72371D15D97900B67EF7 /* Build configuration list for PBXNativeTarget "bolton-ma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C32B72381D15D97900B67EF7 /* Debug */,
+				C32B72391D15D97900B67EF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C32B723A1D15D97900B67EF7 /* Build configuration list for PBXNativeTarget "bolton-maTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C32B723B1D15D97900B67EF7 /* Debug */,
+				C32B723C1D15D97900B67EF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C32B723D1D15D97900B67EF7 /* Build configuration list for PBXNativeTarget "bolton-maUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C32B723E1D15D97900B67EF7 /* Debug */,
+				C32B723F1D15D97900B67EF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C32B72071D15D97900B67EF7 /* Project object */;
+}
