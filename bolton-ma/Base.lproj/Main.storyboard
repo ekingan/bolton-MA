@@ -180,13 +180,97 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="5Tz-2k-ZMD">
+                                <rect key="frame" x="20" y="166" width="560" height="352"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="l12-pu-jDT">
+                                        <rect key="frame" x="0.0" y="0.0" width="560" height="62"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="POPULATION" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lz6-rH-hTx">
+                                                <rect key="frame" x="0.0" y="0.0" width="110" height="42"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="169" id="GOg-eC-5j9"/>
+                                                    <constraint firstAttribute="height" constant="21" id="klX-Tb-1m0"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                                <variation key="default">
+                                                    <mask key="constraints">
+                                                        <exclude reference="klX-Tb-1m0"/>
+                                                        <exclude reference="GOg-eC-5j9"/>
+                                                    </mask>
+                                                </variation>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="4,897" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rNk-Ht-vIR">
+                                                <rect key="frame" x="0.0" y="42" width="43" height="20"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="21" id="qqf-LK-Flp"/>
+                                                    <constraint firstAttribute="width" constant="169" id="uTq-aa-Cxf"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                                <variation key="default">
+                                                    <mask key="constraints">
+                                                        <exclude reference="qqf-LK-Flp"/>
+                                                        <exclude reference="uTq-aa-Cxf"/>
+                                                    </mask>
+                                                </variation>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="V9a-3v-4g7">
+                                        <rect key="frame" x="0.0" y="72" width="560" height="280"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="HISTORY" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a5z-zH-rWZ">
+                                                <rect key="frame" x="0.0" y="0.0" width="76" height="122"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="21" id="46R-bw-Rky"/>
+                                                    <constraint firstAttribute="width" constant="169" id="DVs-n6-1sH"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                                <variation key="default">
+                                                    <mask key="constraints">
+                                                        <exclude reference="46R-bw-Rky"/>
+                                                        <exclude reference="DVs-n6-1sH"/>
+                                                    </mask>
+                                                </variation>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E4g-w1-RL6">
+                                                <rect key="frame" x="0.0" y="122" width="560" height="159"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="21" id="0eY-1u-125"/>
+                                                    <constraint firstAttribute="width" constant="169" id="7iT-qe-jxD"/>
+                                                </constraints>
+                                                <mutableString key="text">The town of Bolton was incorporated on June 24, 1738, following an influx of settlers. By 1711, according to historian, Esther Whitcomb, more than 150 people were living on Bolton soil, despite a local history of Indian uprisings and one massacre. Bolton's history is interesting because it is reflective of early settlement patterns in the central Massachusetts area, and the conflicts with King Philip and his Indian soldiers. The town was formerly part of the town of Lancaster, but seceded along the Still River, where the current boundary line still stands.</mutableString>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                                <variation key="default">
+                                                    <mask key="constraints">
+                                                        <exclude reference="0eY-1u-125"/>
+                                                        <exclude reference="7iT-qe-jxD"/>
+                                                    </mask>
+                                                </variation>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Eiv-Vr-j6k" firstAttribute="top" secondItem="r8w-WE-oLG" secondAttribute="topMargin" constant="-6" id="7TA-ck-06I"/>
                             <constraint firstItem="Eiv-Vr-j6k" firstAttribute="top" secondItem="r8w-WE-oLG" secondAttribute="topMargin" constant="-6" id="Obt-3P-Nza"/>
+                            <constraint firstItem="5Tz-2k-ZMD" firstAttribute="leading" secondItem="r8w-WE-oLG" secondAttribute="leadingMargin" id="PYz-OC-47y"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="5Tz-2k-ZMD" secondAttribute="trailing" id="QZ5-db-kla"/>
                             <constraint firstItem="kz9-v9-ZEn" firstAttribute="centerX" secondItem="r8w-WE-oLG" secondAttribute="centerX" id="XYB-Bj-PWV"/>
+                            <constraint firstItem="AtT-cH-VAL" firstAttribute="top" secondItem="5Tz-2k-ZMD" secondAttribute="bottom" constant="20" id="e5b-8v-H36"/>
                             <constraint firstAttribute="trailing" secondItem="Eiv-Vr-j6k" secondAttribute="trailing" id="f5U-jn-nS3"/>
+                            <constraint firstItem="5Tz-2k-ZMD" firstAttribute="top" secondItem="Eiv-Vr-j6k" secondAttribute="bottom" constant="100" id="htI-sY-sKp"/>
                             <constraint firstItem="Eiv-Vr-j6k" firstAttribute="leading" secondItem="r8w-WE-oLG" secondAttribute="leading" id="mBD-Zk-TFg"/>
                             <constraint firstItem="Eiv-Vr-j6k" firstAttribute="top" secondItem="r8w-WE-oLG" secondAttribute="top" id="mU2-mN-xou"/>
                             <constraint firstItem="kz9-v9-ZEn" firstAttribute="top" secondItem="M9R-eS-R4J" secondAttribute="bottom" constant="54" id="nOh-c2-mVT"/>
