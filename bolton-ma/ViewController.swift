@@ -12,10 +12,15 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var moreBtn: UIButton!
     
+    @IBOutlet weak var photoBtn: UIButton!
+    
     override func viewDidLoad() {
+        
         super.viewDidLoad()
         
-        moreBtn.layer.cornerRadius = 2.0
+        moreBtn.layer.cornerRadius = 6.0
+        photoBtn.layer.cornerRadius = 6.0
+        
         
     }
 

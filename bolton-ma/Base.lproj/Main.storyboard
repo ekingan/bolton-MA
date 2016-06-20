@@ -21,29 +21,29 @@
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="cD1-XB-iVh">
-                                <rect key="frame" x="7" y="20" width="186" height="186"/>
+                                <rect key="frame" x="7" y="20" width="184" height="196"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="bottom" translatesAutoresizingMaskIntoConstraints="NO" id="jsx-1V-DN0">
-                                        <rect key="frame" x="0.0" y="0.0" width="128" height="62"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="134" height="68"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="JV3-3f-y7d">
-                                                <rect key="frame" x="0.0" y="0.0" width="128" height="62"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="134" height="68"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HISTORIC" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MuO-fP-NsB">
-                                                        <rect key="frame" x="0.0" y="0.0" width="128" height="21"/>
-                                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="134" height="23"/>
+                                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
                                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NEW ENGLAND" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Qv-h7-8Jy">
-                                                        <rect key="frame" x="0.0" y="21" width="128" height="21"/>
-                                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                                        <rect key="frame" x="0.0" y="23" width="134" height="23"/>
+                                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
                                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FARMLAND" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BNB-FS-hWR">
-                                                        <rect key="frame" x="0.0" y="41" width="128" height="21"/>
-                                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                                        <rect key="frame" x="0.0" y="45" width="134" height="23"/>
+                                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
                                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
@@ -52,16 +52,16 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="yqZ-jM-diW">
-                                        <rect key="frame" x="0.0" y="102" width="186" height="84"/>
+                                        <rect key="frame" x="0.0" y="108" width="184" height="89"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BOLTON" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TWb-tL-aSf">
-                                                <rect key="frame" x="0.0" y="0.0" width="186" height="54"/>
-                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="45"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="184" height="59"/>
+                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="45"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="tMD-05-yRt">
-                                                <rect key="frame" x="0.0" y="54" width="170" height="30"/>
+                                                <rect key="frame" x="0.0" y="59" width="162" height="30"/>
                                                 <subviews>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="compass_WHITE" translatesAutoresizingMaskIntoConstraints="NO" id="tbp-i8-eLn">
                                                         <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
@@ -71,8 +71,8 @@
                                                         </constraints>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" alpha="0.40000000596046448" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MASSACHUSETTS" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d6v-mE-jLE">
-                                                        <rect key="frame" x="35" y="0.0" width="135" height="30"/>
-                                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
+                                                        <rect key="frame" x="35" y="0.0" width="127" height="30"/>
+                                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="15"/>
                                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
@@ -82,21 +82,41 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YG8-vK-QXm">
-                                <rect key="frame" x="223" y="498" width="154" height="43"/>
-                                <color key="backgroundColor" red="0.9041587752525253" green="0.17072425931333754" blue="0.053815720685677748" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="154" id="gfR-cp-JJx"/>
-                                    <constraint firstAttribute="height" constant="43" id="kK6-xA-FxC"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
-                                <state key="normal" title="FIND OUT MORE">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="1ul-1z-FYa" kind="show" id="SFv-EV-6Ep"/>
-                                </connections>
-                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="6ls-S9-JLJ">
+                                <rect key="frame" x="117" y="512" width="358" height="43"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YG8-vK-QXm">
+                                        <rect key="frame" x="0.0" y="0.0" width="154" height="43"/>
+                                        <color key="backgroundColor" red="0.90415877529999999" green="0.17072425929999999" blue="0.053815720689999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="154" id="gfR-cp-JJx"/>
+                                            <constraint firstAttribute="height" constant="43" id="kK6-xA-FxC"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="15"/>
+                                        <state key="normal" title="About Bolton">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="1ul-1z-FYa" kind="show" id="SFv-EV-6Ep"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ACR-X6-QcW">
+                                        <rect key="frame" x="204" y="0.0" width="154" height="43"/>
+                                        <color key="backgroundColor" red="0.90415877529999999" green="0.17072425929999999" blue="0.053815720689999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="154" id="g6n-NF-hiM"/>
+                                            <constraint firstAttribute="height" constant="43" id="rLU-fk-pbI"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="15"/>
+                                        <state key="normal" title="Photos">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="Wo4-Fd-kHG" kind="show" id="tPs-aA-WbH"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -112,11 +132,11 @@
                             <constraint firstAttribute="trailingMargin" secondItem="gjW-Ou-b9t" secondAttribute="trailing" constant="-15" id="iw6-DT-cgP"/>
                             <constraint firstItem="gjW-Ou-b9t" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="jJG-hI-MpI"/>
                             <constraint firstItem="gjW-Ou-b9t" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="jsI-P5-qGP"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="YG8-vK-QXm" secondAttribute="bottom" constant="59" id="lLB-iV-Sqy"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="gjW-Ou-b9t" secondAttribute="bottom" id="t81-oa-0Vy"/>
-                            <constraint firstItem="YG8-vK-QXm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tVA-eL-hhC"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="6ls-S9-JLJ" secondAttribute="bottom" constant="45" id="tEE-tc-Wuh"/>
                             <constraint firstItem="gjW-Ou-b9t" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-43" id="vNL-1w-QIf"/>
                             <constraint firstAttribute="trailing" secondItem="gjW-Ou-b9t" secondAttribute="trailing" id="vOw-Ud-PCt"/>
+                            <constraint firstItem="6ls-S9-JLJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wNB-9F-CCf"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
@@ -134,16 +154,17 @@
                     </view>
                     <connections>
                         <outlet property="moreBtn" destination="YG8-vK-QXm" id="GBW-lq-wta"/>
+                        <outlet property="photoBtn" destination="ACR-X6-QcW" id="K9K-P5-CKR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="134" y="300"/>
         </scene>
-        <!--View Controller-->
+        <!--Detail View Controller-->
         <scene sceneID="qzE-pR-bx6">
             <objects>
-                <viewController id="1ul-1z-FYa" sceneMemberID="viewController">
+                <viewController id="1ul-1z-FYa" customClass="DetailViewController" customModule="bolton_ma" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="M9R-eS-R4J"/>
                         <viewControllerLayoutGuide type="bottom" id="AtT-cH-VAL"/>
@@ -153,139 +174,475 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="foliage" translatesAutoresizingMaskIntoConstraints="NO" id="Eiv-Vr-j6k">
-                                <rect key="frame" x="-6" y="-6" width="611" height="147"/>
+                                <rect key="frame" x="-6" y="-6" width="611" height="71"/>
                                 <constraints>
+                                    <constraint firstAttribute="height" constant="71" id="5ZP-yv-p4E"/>
+                                    <constraint firstAttribute="height" constant="79" id="AQK-eG-3HC"/>
+                                    <constraint firstAttribute="height" constant="50" id="GgY-nt-KDh"/>
                                     <constraint firstAttribute="height" constant="128" id="TE5-Wd-ElK"/>
+                                    <constraint firstAttribute="height" constant="100" id="Y3n-eo-A7F"/>
                                     <constraint firstAttribute="height" constant="147" id="ygb-4v-0uQ"/>
                                 </constraints>
                                 <variation key="default">
                                     <mask key="constraints">
+                                        <exclude reference="5ZP-yv-p4E"/>
+                                        <exclude reference="AQK-eG-3HC"/>
+                                        <exclude reference="TE5-Wd-ElK"/>
+                                        <exclude reference="Y3n-eo-A7F"/>
                                         <exclude reference="ygb-4v-0uQ"/>
                                     </mask>
                                 </variation>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ABOUT BOLTON" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kz9-v9-ZEn">
-                                <rect key="frame" x="215" y="74" width="169" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="ABOUT BOLTON" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kz9-v9-ZEn">
+                                <rect key="frame" x="215" y="23" width="169" height="21"/>
                                 <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="7nm-ua-eQU"/>
                                     <constraint firstAttribute="height" constant="21" id="Ww5-Eu-um0"/>
+                                    <constraint firstAttribute="height" constant="21" id="dew-Ft-1Xu"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="169" id="gK0-ak-CqB"/>
+                                    <constraint firstAttribute="width" constant="169" id="hQw-MI-JzW"/>
                                     <constraint firstAttribute="width" constant="169" id="jJr-Mn-EcO"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="Ww5-Eu-um0"/>
+                                        <exclude reference="jJr-Mn-EcO"/>
+                                    </mask>
+                                </variation>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="BACK" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ch7-QR-ada">
-                                <rect key="frame" x="20" y="14" width="42" height="21"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="5Tz-2k-ZMD">
-                                <rect key="frame" x="20" y="166" width="560" height="352"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="a5u-MT-TJ3">
+                                <rect key="frame" x="20" y="73" width="560" height="534"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="l12-pu-jDT">
-                                        <rect key="frame" x="0.0" y="0.0" width="560" height="62"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="edp-dF-4tq">
+                                        <rect key="frame" x="0.0" y="0.0" width="169" height="42"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="POPULATION" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lz6-rH-hTx">
-                                                <rect key="frame" x="0.0" y="0.0" width="110" height="42"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="QU4-91-UzT">
+                                                <rect key="frame" x="0.0" y="0.0" width="169" height="42"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="POPULATION" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A7P-jy-ON8">
+                                                        <rect key="frame" x="0.0" y="0.0" width="169" height="21"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="21" id="PgX-EP-zyk"/>
+                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="169" id="Stg-Yy-ShM"/>
+                                                            <constraint firstAttribute="width" constant="169" id="flh-DM-TPW"/>
+                                                            <constraint firstAttribute="width" constant="169" id="qPe-Rh-xVz"/>
+                                                            <constraint firstAttribute="height" constant="21" id="qYd-60-xbZ"/>
+                                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="yjy-Xa-Lzs"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="14"/>
+                                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <variation key="default">
+                                                            <mask key="constraints">
+                                                                <exclude reference="qYd-60-xbZ"/>
+                                                                <exclude reference="flh-DM-TPW"/>
+                                                            </mask>
+                                                        </variation>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4,897" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ywC-tf-ebU">
+                                                        <rect key="frame" x="0.0" y="21" width="169" height="21"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="169" id="1XV-Pq-zy0"/>
+                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="169" id="7mL-Yr-1Az"/>
+                                                            <constraint firstAttribute="height" constant="21" id="Cbe-TH-Qav"/>
+                                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="SAp-6f-xLl"/>
+                                                            <constraint firstAttribute="width" constant="169" id="sdl-Gd-aqf"/>
+                                                            <constraint firstAttribute="height" constant="21" id="vTK-Hi-8Fl"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="13"/>
+                                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <variation key="default">
+                                                            <mask key="constraints">
+                                                                <exclude reference="Cbe-TH-Qav"/>
+                                                                <exclude reference="1XV-Pq-zy0"/>
+                                                            </mask>
+                                                        </variation>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="7c4-Rj-HaX">
+                                        <rect key="frame" x="0.0" y="42" width="169" height="42"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AREA" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x7E-ZL-IUs">
+                                                <rect key="frame" x="0.0" y="0.0" width="169" height="21"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="169" id="GOg-eC-5j9"/>
-                                                    <constraint firstAttribute="height" constant="21" id="klX-Tb-1m0"/>
+                                                    <constraint firstAttribute="width" constant="169" id="B72-s9-fJd"/>
+                                                    <constraint firstAttribute="width" constant="169" id="IXs-Y2-qF4"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="169" id="VhL-zT-4qt"/>
+                                                    <constraint firstAttribute="height" constant="21" id="YlL-OK-clP"/>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="gP8-hq-CT2"/>
+                                                    <constraint firstAttribute="height" constant="21" id="wUN-fl-hBH"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="14"/>
                                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                                 <variation key="default">
                                                     <mask key="constraints">
-                                                        <exclude reference="klX-Tb-1m0"/>
-                                                        <exclude reference="GOg-eC-5j9"/>
+                                                        <exclude reference="YlL-OK-clP"/>
+                                                        <exclude reference="IXs-Y2-qF4"/>
                                                     </mask>
                                                 </variation>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="4,897" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rNk-Ht-vIR">
-                                                <rect key="frame" x="0.0" y="42" width="43" height="20"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20.0 square miles" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="chg-zZ-vhq">
+                                                <rect key="frame" x="0.0" y="21" width="169" height="21"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="21" id="qqf-LK-Flp"/>
-                                                    <constraint firstAttribute="width" constant="169" id="uTq-aa-Cxf"/>
+                                                    <constraint firstAttribute="height" constant="21" id="4ey-Bj-Ul8"/>
+                                                    <constraint firstAttribute="width" constant="169" id="JD3-Og-yaK"/>
+                                                    <constraint firstAttribute="height" constant="21" id="Vd3-gN-hjq"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="169" id="e1f-sy-Fl0"/>
+                                                    <constraint firstAttribute="width" constant="169" id="lSA-tg-VbI"/>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="u1o-Yu-nY1"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="14"/>
                                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                                 <variation key="default">
                                                     <mask key="constraints">
-                                                        <exclude reference="qqf-LK-Flp"/>
-                                                        <exclude reference="uTq-aa-Cxf"/>
+                                                        <exclude reference="4ey-Bj-Ul8"/>
+                                                        <exclude reference="JD3-Og-yaK"/>
                                                     </mask>
                                                 </variation>
                                             </label>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="V9a-3v-4g7">
-                                        <rect key="frame" x="0.0" y="72" width="560" height="280"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="yHg-Ta-oAU">
+                                        <rect key="frame" x="0.0" y="84" width="536" height="230"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="HISTORY" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a5z-zH-rWZ">
-                                                <rect key="frame" x="0.0" y="0.0" width="76" height="122"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HISTORY" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yGG-pi-IDR">
+                                                <rect key="frame" x="0.0" y="0.0" width="169" height="21"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="21" id="46R-bw-Rky"/>
-                                                    <constraint firstAttribute="width" constant="169" id="DVs-n6-1sH"/>
+                                                    <constraint firstAttribute="width" constant="169" id="4b9-Zz-Iki"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="169" id="BXC-UH-ZeJ"/>
+                                                    <constraint firstAttribute="height" constant="21" id="Pxl-bT-4AP"/>
+                                                    <constraint firstAttribute="height" constant="21" id="XdM-Ny-X57"/>
+                                                    <constraint firstAttribute="width" constant="169" id="ZS9-EI-IeX"/>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="q5S-ng-LjN"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="14"/>
                                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                                 <variation key="default">
                                                     <mask key="constraints">
-                                                        <exclude reference="46R-bw-Rky"/>
-                                                        <exclude reference="DVs-n6-1sH"/>
+                                                        <exclude reference="XdM-Ny-X57"/>
+                                                        <exclude reference="4b9-Zz-Iki"/>
                                                     </mask>
                                                 </variation>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E4g-w1-RL6">
-                                                <rect key="frame" x="0.0" y="122" width="560" height="159"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O5L-wW-kLy">
+                                                <rect key="frame" x="0.0" y="21" width="536" height="209"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="21" id="0eY-1u-125"/>
-                                                    <constraint firstAttribute="width" constant="169" id="7iT-qe-jxD"/>
+                                                    <constraint firstAttribute="width" constant="536" id="7Fs-t7-WTW"/>
+                                                    <constraint firstAttribute="height" constant="209" id="Dy2-bT-L3A"/>
                                                 </constraints>
-                                                <mutableString key="text">The town of Bolton was incorporated on June 24, 1738, following an influx of settlers. By 1711, according to historian, Esther Whitcomb, more than 150 people were living on Bolton soil, despite a local history of Indian uprisings and one massacre. Bolton's history is interesting because it is reflective of early settlement patterns in the central Massachusetts area, and the conflicts with King Philip and his Indian soldiers. The town was formerly part of the town of Lancaster, but seceded along the Still River, where the current boundary line still stands.</mutableString>
-                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                                <mutableString key="text">For most of its historical existence Bolton has been a rural community--consisting of meadows, woods, and grazing lands on Lancaster's outlying territory in the seventeenth century, subsistence farms in the eighteenth, dairy farms and orchards in the nineteenth, and a diverse culture of orcharding, dairying, poultry-raising, and market-gardening in the first half of the twentieth century. Today its remaining agricultural base has been greatly reduced, and the town has been transformed into a largely residential community of handsome single-family houses, most on large lots, providing homes for people who work outside the town's borders. This change in function, however, and its accompanying increase in population, has made the preservation of the town's rural character and the unique and fragile mixture of its historic resources ever more valuable to its citizens.</mutableString>
+                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="14"/>
+                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="L1z-Ah-kTG">
+                                        <rect key="frame" x="0.0" y="314" width="536" height="136"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DESCRIPTION" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YO8-PD-XXN">
+                                                <rect key="frame" x="0.0" y="0.0" width="92" height="34"/>
+                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="14"/>
+                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YnE-EP-cOc">
+                                                <rect key="frame" x="0.0" y="34" width="536" height="102"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="102" id="j27-MM-89n"/>
+                                                    <constraint firstAttribute="width" constant="536" id="tE0-Hh-9od"/>
+                                                </constraints>
+                                                <string key="text">Bolton is a residential and agricultural community on the east slope of the Nashua River Valley on an historic east-west corridor.  With many hills but few streams for power, it developed as an agricultural community.  Rich forests and lime deposits also supported limestone quarries and kilns which once produced potash, lime, and brick products.</string>
+                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="14"/>
+                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="7Jj-mO-TC6">
+                                        <rect key="frame" x="0.0" y="450" width="338" height="84"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="THINGS TO DO" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g13-QO-63e">
+                                                <rect key="frame" x="0.0" y="0.0" width="169" height="21"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="21" id="0hE-Ug-eA9"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="169" id="6sf-c9-3Wb"/>
+                                                    <constraint firstAttribute="height" constant="21" id="Bqx-vw-tLJ"/>
+                                                    <constraint firstAttribute="width" constant="169" id="RCY-C9-IJH"/>
+                                                    <constraint firstAttribute="width" constant="169" id="YrI-uL-BuO"/>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="ree-be-hLS"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="14"/>
                                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                                 <variation key="default">
                                                     <mask key="constraints">
-                                                        <exclude reference="0eY-1u-125"/>
-                                                        <exclude reference="7iT-qe-jxD"/>
+                                                        <exclude reference="0hE-Ug-eA9"/>
+                                                        <exclude reference="RCY-C9-IJH"/>
                                                     </mask>
                                                 </variation>
                                             </label>
+                                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V8V-Jr-rxx">
+                                                <rect key="frame" x="0.0" y="21" width="338" height="63"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="dvs-Fw-0o7">
+                                                        <rect key="frame" x="0.0" y="0.0" width="169" height="63"/>
+                                                        <subviews>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="gYS-05-egD">
+                                                                <rect key="frame" x="0.0" y="0.0" width="169" height="63"/>
+                                                                <subviews>
+                                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="QNy-wo-AN9">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="169" height="63"/>
+                                                                        <subviews>
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hike Conservation Trails" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8et-f0-Vjy">
+                                                                                <rect key="frame" x="0.0" y="0.0" width="169" height="21"/>
+                                                                                <constraints>
+                                                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="6GU-HN-w7t"/>
+                                                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="169" id="NUF-lg-bhS"/>
+                                                                                    <constraint firstAttribute="width" constant="169" id="gfu-92-q7E"/>
+                                                                                    <constraint firstAttribute="height" constant="21" id="krD-bs-kFI"/>
+                                                                                    <constraint firstAttribute="height" constant="21" id="vaN-xm-4Up"/>
+                                                                                    <constraint firstAttribute="width" constant="169" id="wTB-T5-TUp"/>
+                                                                                </constraints>
+                                                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="14"/>
+                                                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                                <nil key="highlightedColor"/>
+                                                                                <variation key="default">
+                                                                                    <mask key="constraints">
+                                                                                        <exclude reference="krD-bs-kFI"/>
+                                                                                        <exclude reference="gfu-92-q7E"/>
+                                                                                    </mask>
+                                                                                </variation>
+                                                                            </label>
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bolton Springs Farm" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T23-tT-vlO">
+                                                                                <rect key="frame" x="0.0" y="21" width="169" height="21"/>
+                                                                                <constraints>
+                                                                                    <constraint firstAttribute="height" constant="21" id="6bw-M9-8tt"/>
+                                                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="169" id="7P9-BP-dST"/>
+                                                                                    <constraint firstAttribute="width" constant="169" id="YaQ-BN-FcR"/>
+                                                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="fue-DZ-scx"/>
+                                                                                    <constraint firstAttribute="width" constant="169" id="pIQ-jm-Q5H"/>
+                                                                                    <constraint firstAttribute="height" constant="21" id="t2E-1Q-4vh"/>
+                                                                                </constraints>
+                                                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="14"/>
+                                                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                                <nil key="highlightedColor"/>
+                                                                                <variation key="default">
+                                                                                    <mask key="constraints">
+                                                                                        <exclude reference="t2E-1Q-4vh"/>
+                                                                                        <exclude reference="pIQ-jm-Q5H"/>
+                                                                                    </mask>
+                                                                                </variation>
+                                                                            </label>
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bolton Fair" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="11w-Yz-lPz">
+                                                                                <rect key="frame" x="0.0" y="42" width="169" height="21"/>
+                                                                                <constraints>
+                                                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="169" id="9B4-4R-uGM"/>
+                                                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="Zv5-Af-bRj"/>
+                                                                                    <constraint firstAttribute="width" constant="169" id="dIB-Ux-KqC"/>
+                                                                                    <constraint firstAttribute="height" constant="21" id="fvD-lQ-6JU"/>
+                                                                                    <constraint firstAttribute="height" constant="21" id="hw9-ZL-bkw"/>
+                                                                                    <constraint firstAttribute="width" constant="169" id="zlq-Vb-zw5"/>
+                                                                                </constraints>
+                                                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="14"/>
+                                                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                                <nil key="highlightedColor"/>
+                                                                                <variation key="default">
+                                                                                    <mask key="constraints">
+                                                                                        <exclude reference="hw9-ZL-bkw"/>
+                                                                                        <exclude reference="dIB-Ux-KqC"/>
+                                                                                    </mask>
+                                                                                </variation>
+                                                                            </label>
+                                                                        </subviews>
+                                                                    </stackView>
+                                                                </subviews>
+                                                            </stackView>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="9yj-D1-K06">
+                                                        <rect key="frame" x="169" y="0.0" width="169" height="63"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nashoba Valley WInery" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U7j-br-pbn">
+                                                                <rect key="frame" x="0.0" y="0.0" width="169" height="21"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="169" id="6yi-cg-4pu"/>
+                                                                    <constraint firstAttribute="width" constant="169" id="JLo-oS-sIa"/>
+                                                                    <constraint firstAttribute="height" constant="21" id="TRb-Sj-Hls"/>
+                                                                    <constraint firstAttribute="height" constant="21" id="qzi-R0-v3e"/>
+                                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="wVx-qA-ONi"/>
+                                                                    <constraint firstAttribute="width" constant="169" id="y6t-8c-ALg"/>
+                                                                </constraints>
+                                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="14"/>
+                                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <nil key="highlightedColor"/>
+                                                                <variation key="default">
+                                                                    <mask key="constraints">
+                                                                        <exclude reference="TRb-Sj-Hls"/>
+                                                                        <exclude reference="y6t-8c-ALg"/>
+                                                                    </mask>
+                                                                </variation>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The International Golf Course" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aiJ-cI-XPQ">
+                                                                <rect key="frame" x="0.0" y="21" width="169" height="21"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" constant="169" id="2ci-75-mg3"/>
+                                                                    <constraint firstAttribute="width" constant="169" id="7Ck-uh-zyN"/>
+                                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="169" id="7M9-xf-fYO"/>
+                                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="NeD-5A-Vbc"/>
+                                                                    <constraint firstAttribute="height" constant="21" id="nqQ-R8-Cy1"/>
+                                                                    <constraint firstAttribute="height" constant="21" id="rvm-Sf-XVn"/>
+                                                                </constraints>
+                                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="14"/>
+                                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <nil key="highlightedColor"/>
+                                                                <variation key="default">
+                                                                    <mask key="constraints">
+                                                                        <exclude reference="nqQ-R8-Cy1"/>
+                                                                        <exclude reference="7Ck-uh-zyN"/>
+                                                                    </mask>
+                                                                </variation>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Coloniel Candies" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O9z-4h-heN">
+                                                                <rect key="frame" x="0.0" y="42" width="169" height="21"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" constant="169" id="4P8-fc-DYY"/>
+                                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="169" id="BqV-2H-TOk"/>
+                                                                    <constraint firstAttribute="height" constant="21" id="Jnv-dA-5ic"/>
+                                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="Jo0-O6-fCp"/>
+                                                                    <constraint firstAttribute="height" constant="21" id="f5I-R8-waq"/>
+                                                                    <constraint firstAttribute="width" constant="169" id="odt-T9-W2H"/>
+                                                                </constraints>
+                                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="14"/>
+                                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <nil key="highlightedColor"/>
+                                                                <variation key="default">
+                                                                    <mask key="constraints">
+                                                                        <exclude reference="Jnv-dA-5ic"/>
+                                                                        <exclude reference="4P8-fc-DYY"/>
+                                                                    </mask>
+                                                                </variation>
+                                                            </label>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                            </stackView>
                                         </subviews>
                                     </stackView>
                                 </subviews>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JwP-kV-MTt">
+                                <rect key="frame" x="14" y="14" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="LIp-Bz-Ao6"/>
+                                    <constraint firstAttribute="width" constant="46" id="kex-2J-G5m"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="15"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="backPressed:" destination="1ul-1z-FYa" eventType="touchUpInside" id="gGD-4q-fbe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6c8-Zf-hhk">
+                                <rect key="frame" x="534" y="14" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="5GP-Of-wT1"/>
+                                    <constraint firstAttribute="width" constant="46" id="6sO-JQ-njL"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="WTQ-iW-Z8B"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="46" id="tWI-YG-hM4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="15"/>
+                                <state key="normal" title="Photos">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="backPressed:" destination="1ul-1z-FYa" eventType="touchUpInside" id="ztl-Vw-Yl8"/>
+                                    <action selector="onPhotoBtnPress:" destination="1ul-1z-FYa" eventType="touchUpInside" id="AJS-MR-gh2"/>
+                                    <segue destination="Wo4-Fd-kHG" kind="show" id="DiB-UV-Vwm"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="6c8-Zf-hhk" firstAttribute="trailing" secondItem="r8w-WE-oLG" secondAttribute="trailingMargin" id="208-dm-DPE"/>
+                            <constraint firstItem="kz9-v9-ZEn" firstAttribute="top" secondItem="M9R-eS-R4J" secondAttribute="bottom" constant="3" id="4hr-Gr-VaY"/>
+                            <constraint firstItem="kz9-v9-ZEn" firstAttribute="centerX" secondItem="r8w-WE-oLG" secondAttribute="centerX" id="53L-m2-rjQ"/>
                             <constraint firstItem="Eiv-Vr-j6k" firstAttribute="top" secondItem="r8w-WE-oLG" secondAttribute="topMargin" constant="-6" id="7TA-ck-06I"/>
+                            <constraint firstItem="6c8-Zf-hhk" firstAttribute="top" secondItem="r8w-WE-oLG" secondAttribute="topMargin" constant="14" id="ENx-6U-g1W"/>
+                            <constraint firstItem="a5u-MT-TJ3" firstAttribute="centerX" secondItem="r8w-WE-oLG" secondAttribute="centerX" id="MOU-RP-zyZ"/>
                             <constraint firstItem="Eiv-Vr-j6k" firstAttribute="top" secondItem="r8w-WE-oLG" secondAttribute="topMargin" constant="-6" id="Obt-3P-Nza"/>
-                            <constraint firstItem="5Tz-2k-ZMD" firstAttribute="leading" secondItem="r8w-WE-oLG" secondAttribute="leadingMargin" id="PYz-OC-47y"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="5Tz-2k-ZMD" secondAttribute="trailing" id="QZ5-db-kla"/>
+                            <constraint firstItem="Eiv-Vr-j6k" firstAttribute="leading" secondItem="r8w-WE-oLG" secondAttribute="leading" id="PXA-BR-E1F"/>
+                            <constraint firstItem="a5u-MT-TJ3" firstAttribute="leading" secondItem="r8w-WE-oLG" secondAttribute="leadingMargin" id="SEK-qX-Kqu"/>
+                            <constraint firstItem="kz9-v9-ZEn" firstAttribute="centerX" secondItem="r8w-WE-oLG" secondAttribute="centerX" id="VFO-Ls-7le"/>
+                            <constraint firstItem="Eiv-Vr-j6k" firstAttribute="centerX" secondItem="r8w-WE-oLG" secondAttribute="centerX" id="Vsp-he-znW"/>
                             <constraint firstItem="kz9-v9-ZEn" firstAttribute="centerX" secondItem="r8w-WE-oLG" secondAttribute="centerX" id="XYB-Bj-PWV"/>
-                            <constraint firstItem="AtT-cH-VAL" firstAttribute="top" secondItem="5Tz-2k-ZMD" secondAttribute="bottom" constant="20" id="e5b-8v-H36"/>
+                            <constraint firstItem="JwP-kV-MTt" firstAttribute="top" secondItem="r8w-WE-oLG" secondAttribute="top" constant="14" id="bna-Ik-dHG"/>
+                            <constraint firstItem="Eiv-Vr-j6k" firstAttribute="centerX" secondItem="r8w-WE-oLG" secondAttribute="centerX" id="bu2-Kf-RcN"/>
                             <constraint firstAttribute="trailing" secondItem="Eiv-Vr-j6k" secondAttribute="trailing" id="f5U-jn-nS3"/>
-                            <constraint firstItem="5Tz-2k-ZMD" firstAttribute="top" secondItem="Eiv-Vr-j6k" secondAttribute="bottom" constant="100" id="htI-sY-sKp"/>
+                            <constraint firstAttribute="trailing" secondItem="Eiv-Vr-j6k" secondAttribute="trailing" id="fbc-w6-2LV"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="a5u-MT-TJ3" secondAttribute="trailing" id="jT5-L8-DJu"/>
                             <constraint firstItem="Eiv-Vr-j6k" firstAttribute="leading" secondItem="r8w-WE-oLG" secondAttribute="leading" id="mBD-Zk-TFg"/>
+                            <constraint firstItem="AtT-cH-VAL" firstAttribute="top" secondItem="a5u-MT-TJ3" secondAttribute="bottom" constant="8" id="mCC-kp-ukt"/>
+                            <constraint firstItem="Eiv-Vr-j6k" firstAttribute="top" secondItem="r8w-WE-oLG" secondAttribute="top" id="mGr-QZ-O5S"/>
                             <constraint firstItem="Eiv-Vr-j6k" firstAttribute="top" secondItem="r8w-WE-oLG" secondAttribute="top" id="mU2-mN-xou"/>
                             <constraint firstItem="kz9-v9-ZEn" firstAttribute="top" secondItem="M9R-eS-R4J" secondAttribute="bottom" constant="54" id="nOh-c2-mVT"/>
+                            <constraint firstAttribute="trailing" secondItem="Eiv-Vr-j6k" secondAttribute="trailing" id="nkA-x4-Ozn"/>
+                            <constraint firstItem="a5u-MT-TJ3" firstAttribute="top" secondItem="Eiv-Vr-j6k" secondAttribute="bottom" constant="8" id="pQi-wp-ImK"/>
+                            <constraint firstItem="Eiv-Vr-j6k" firstAttribute="top" secondItem="r8w-WE-oLG" secondAttribute="top" id="qH1-ll-TTd"/>
+                            <constraint firstItem="JwP-kV-MTt" firstAttribute="leading" secondItem="r8w-WE-oLG" secondAttribute="leading" constant="6" id="vDS-vp-3gc"/>
+                            <constraint firstItem="kz9-v9-ZEn" firstAttribute="top" secondItem="M9R-eS-R4J" secondAttribute="bottom" constant="13" id="vJQ-xX-7zG"/>
+                            <constraint firstItem="Eiv-Vr-j6k" firstAttribute="leading" secondItem="r8w-WE-oLG" secondAttribute="leading" id="w6p-sY-dQG"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
                                 <exclude reference="7TA-ck-06I"/>
                                 <exclude reference="Obt-3P-Nza"/>
+                                <exclude reference="PXA-BR-E1F"/>
+                                <exclude reference="Vsp-he-znW"/>
+                                <exclude reference="f5U-jn-nS3"/>
+                                <exclude reference="fbc-w6-2LV"/>
+                                <exclude reference="mBD-Zk-TFg"/>
+                                <exclude reference="mGr-QZ-O5S"/>
+                                <exclude reference="mU2-mN-xou"/>
+                                <exclude reference="XYB-Bj-PWV"/>
+                                <exclude reference="nOh-c2-mVT"/>
                             </mask>
                         </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wsc-lW-sOf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="813" y="338"/>
+            <point key="canvasLocation" x="805" y="343"/>
+        </scene>
+        <!--Photo View Controller-->
+        <scene sceneID="MXv-sv-VAb">
+            <objects>
+                <viewController id="Wo4-Fd-kHG" userLabel="Photo View Controller" customClass="PhotoViewController" customModule="bolton_ma" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dtM-EC-sR6"/>
+                        <viewControllerLayoutGuide type="bottom" id="6Ts-6o-eba"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="XTv-uE-Ol0">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="K49-jX-RLG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="671" y="993"/>
         </scene>
     </scenes>
     <resources>
@@ -293,4 +650,7 @@
         <image name="firstParishColor" width="660" height="880"/>
         <image name="foliage" width="600" height="436"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="DiB-UV-Vwm"/>
+    </inferredMetricsTieBreakers>
 </document>

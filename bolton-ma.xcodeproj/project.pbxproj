@@ -14,6 +14,9 @@
 		C32B721D1D15D97900B67EF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C32B721B1D15D97900B67EF7 /* LaunchScreen.storyboard */; };
 		C32B72281D15D97900B67EF7 /* bolton_maTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32B72271D15D97900B67EF7 /* bolton_maTests.swift */; };
 		C32B72331D15D97900B67EF7 /* bolton_maUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32B72321D15D97900B67EF7 /* bolton_maUITests.swift */; };
+		C32B72431D16D29400B67EF7 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32B72421D16D29400B67EF7 /* DetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C32B72461D16D77200B67EF7 /* BEBAS___.TTF in Resources */ = {isa = PBXBuildFile; fileRef = C32B72451D16D77200B67EF7 /* BEBAS___.TTF */; settings = {ASSET_TAGS = (); }; };
+		C32B72481D17AC2000B67EF7 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32B72471D17AC2000B67EF7 /* PhotoViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		C32B722E1D15D97900B67EF7 /* bolton-maUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bolton-maUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C32B72321D15D97900B67EF7 /* bolton_maUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bolton_maUITests.swift; sourceTree = "<group>"; };
 		C32B72341D15D97900B67EF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C32B72421D16D29400B67EF7 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		C32B72451D16D77200B67EF7 /* BEBAS___.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BEBAS___.TTF"; sourceTree = "<group>"; };
+		C32B72471D17AC2000B67EF7 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +103,15 @@
 		C32B72111D15D97900B67EF7 /* bolton-ma */ = {
 			isa = PBXGroup;
 			children = (
+				C32B72441D16D73C00B67EF7 /* Resources */,
 				C32B72121D15D97900B67EF7 /* AppDelegate.swift */,
 				C32B72141D15D97900B67EF7 /* ViewController.swift */,
 				C32B72161D15D97900B67EF7 /* Main.storyboard */,
 				C32B72191D15D97900B67EF7 /* Assets.xcassets */,
 				C32B721B1D15D97900B67EF7 /* LaunchScreen.storyboard */,
 				C32B721E1D15D97900B67EF7 /* Info.plist */,
+				C32B72421D16D29400B67EF7 /* DetailViewController.swift */,
+				C32B72471D17AC2000B67EF7 /* PhotoViewController.swift */,
 			);
 			path = "bolton-ma";
 			sourceTree = "<group>";
@@ -123,6 +132,14 @@
 				C32B72341D15D97900B67EF7 /* Info.plist */,
 			);
 			path = "bolton-maUITests";
+			sourceTree = "<group>";
+		};
+		C32B72441D16D73C00B67EF7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C32B72451D16D77200B67EF7 /* BEBAS___.TTF */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +247,7 @@
 			files = (
 				C32B721D1D15D97900B67EF7 /* LaunchScreen.storyboard in Resources */,
 				C32B721A1D15D97900B67EF7 /* Assets.xcassets in Resources */,
+				C32B72461D16D77200B67EF7 /* BEBAS___.TTF in Resources */,
 				C32B72181D15D97900B67EF7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,6 +273,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C32B72431D16D29400B67EF7 /* DetailViewController.swift in Sources */,
+				C32B72481D17AC2000B67EF7 /* PhotoViewController.swift in Sources */,
 				C32B72151D15D97900B67EF7 /* ViewController.swift in Sources */,
 				C32B72131D15D97900B67EF7 /* AppDelegate.swift in Sources */,
 			);
