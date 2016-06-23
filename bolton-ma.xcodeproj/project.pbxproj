@@ -501,6 +501,7 @@
 				C32B72391D15D97900B67EF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C32B723A1D15D97900B67EF7 /* Build configuration list for PBXNativeTarget "bolton-maTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +510,7 @@
 				C32B723C1D15D97900B67EF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C32B723D1D15D97900B67EF7 /* Build configuration list for PBXNativeTarget "bolton-maUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +519,7 @@
 				C32B723F1D15D97900B67EF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
